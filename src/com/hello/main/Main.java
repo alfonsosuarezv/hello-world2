@@ -4,12 +4,10 @@ public class Main {
 
     public static void main(String[] args){
 
-        System.out.println("Adiós mundo!!!");
-
-        System.out.println(hello("Alfonso"));
+        System.out.println(greater("Alfonso"));
     }
 
-    public static String hello(String name){
+    public static String greater(String name){
 
         return "Hello " + name;
 
